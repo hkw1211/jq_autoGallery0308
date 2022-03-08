@@ -1,0 +1,199 @@
+/* ============== 로그인  loginContainer 시작 ============== */
+.container {
+    /* background: url(../../img/bg_login.jpg) no-repeat 50%/cover; */
+    /* filter: grayscale(100%); */
+    /* filter: blur(20%); */
+}
+.container .inner-container {
+}
+.container .inner-container .login {
+}
+
+.container .inner-container .login .inner-login { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc( 100vh - 60px - 120px );
+    margin-top: 100px;
+    /* height: 100vh; */
+}
+.container .inner-container .login .inner-login .login-con { 
+    flex: 0 1 400px;
+    /* border: 1px solid #333; */
+    /* background-color: rgba(122, 118, 118, 0.397); */
+    background: url(../../img/bg_login.jpg) no-repeat 50%/cover;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.container .inner-container .login .inner-login .login-con h1.title { 
+    line-height: 50px;
+    text-align: center;
+    padding: 20px 0;
+    color: #fff;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form { 
+    background-color: rgba(49, 49, 8, 0);
+}
+
+/* .container .inner-container .login .inner-login .login-con .login-form ul { 
+} */
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li { 
+    /* border: 1px solid; */
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li label { 
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li:not(:last-child) { 
+    margin-bottom: 15px;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li input {
+    display: block;
+    border: 0;
+    flex: 1;
+    box-sizing: border-box;
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.input1 { 
+    position: relative;
+    margin-bottom: 20px;
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.input1 input {
+    line-height: 20px;
+    padding: 0 0;
+    background-color: #0000;
+    color: #fff;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.input1::after {
+    position: absolute;
+    bottom: 0;
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.input1 input:focus {
+    outline: none;
+    /* background-color: #fff; */
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.logbtn {
+    padding: 50px 0;
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li input[type=button] {
+    line-height: 30px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li4 { 
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    text-align: center;
+    /* border: 1px solid; */
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li4 a { 
+    display: block;
+    color: #fff;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li4 span { 
+    color: #fff;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li1 { 
+    
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li2 { 
+    color: #fff;
+    padding: 5px 0;
+    line-height: 30px;
+    position: relative;
+
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li2 span {
+    /* display: block; */
+    position: relative;
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li2::after { 
+    position: absolute;
+    content: '';
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: #fff;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li2::before { 
+    position: absolute;
+    content: '';
+    display: block;
+    width: 40%;
+    height: 1px;
+    background-color: #fff;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li3 { 
+    line-height: 50px;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li3 a { 
+    background-color: royalblue;
+    width: 100%;
+    height: auto;
+    display: block;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    text-indent: 36px;
+}
+
+.container .inner-container .login .inner-login .login-con .login-form ul>li.li3 a::before { 
+    content: url(../../img/f_logo.svg);
+    /* display: inline-block; */
+    width: 30px;
+    height: 30px;
+    left: 12%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+
+
+/*======= 테블릿 =======*/
+/* @media screen and (max-width:768px) {
+    .container .inner-container .sections .section.sec1 .sec-con {
+        height: 400px;
+    }
+}     */
+/*================================ 모바일 ==============================*/
+/* @media only screen and (max-width:640px) {
+    .header .inner-header .nav .gnb {
+        display: none;
+    }
+    .container .inner-container .sections .section.sec1 .sec-con {
+        height: 400px;
+    }
+    .container .inner-container .join .sections .section.sec1 .sec-con .join-form .join-con .form-con ul>li.li2 .input-con .phone {
+        width: 25%;
+    }
+} */

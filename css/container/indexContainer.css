@@ -1,0 +1,272 @@
+/* ============== indexContainer 시작 ============== */
+.container {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+}
+.container .inner-container {
+    width: 100%;
+    height: auto;
+}
+.container .inner-container .index {
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #00f; */
+}
+.container .inner-container .index .sections {
+    margin-top: 100px;
+    flex: 0 1 1400px;
+    /* border: 1px solid #00f; */
+}
+.container .inner-container .index .sections .section.sec1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+
+}
+.container .inner-container .index .sections .section.sec1 .sec-con {
+    flex: 0 1 100%;
+    /* width: 100%; */
+    height: 500px;
+    line-height: 500px;
+    position: relative;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery {
+    width: 500%;
+    height: inherit;
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* border: 1px solid #f00; */
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul {
+    display: flex;
+    justify-content: space-between;
+    /* height: inherit; */
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul>li {
+    flex: 0 1 20%;
+    height: inherit;
+    color: #00f;
+    font-size: 3rem;
+    text-align: center;
+    box-sizing: border-box;
+    /* border: 1px solid #00f; */
+}
+
+/* 
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul>li:nth-child(1) {
+    background: url(../../img/bg_0.jpg) no-repeat 50%/cover; 
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul>li:nth-child(2) {
+    background: url(../../img/bg_1.jpg) no-repeat 50%/cover; 
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul>li:nth-child(3) {
+    background: url(../../img/bg_2.jpg) no-repeat 50%/cover; 
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul>li:nth-child(4) {
+    background: url(../../img/bg_3.jpg) no-repeat 50%/cover; 
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .gallery>ul>li:nth-child(5) {
+    background: url(../../img/bg_4.jpg) no-repeat 50%/cover; 
+}
+*/
+
+.container .inner-container .index .sections .section.sec1 .sec-con .center-btn {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    /* border: 1px solid #f00; */
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .center-btn span.arrow {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    /* border: 1px solid #f00; */
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .center-btn span.arrow:hover {
+    background-color: #00f;
+    cursor: pointer;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .bcon {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    bottom: 20px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #f00; */
+    box-sizing: border-box;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .bcon .items {
+    width: auto;
+    height: auto;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .bcon .items>ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+.container .inner-container .index .sections .section.sec1 .sec-con .bcon .items>ul>li {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
+.container .inner-container .index .sections .section.sec1 .sec-con .bcon .items>ul>li:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+.on {
+    background-color: #00f;
+}
+.galleryAni {
+    transition: all 0.5s ease-in-out;
+}
+
+/* ============== .section.sec2 시작 ============== */
+.container .inner-container .index .sections .section.sec2 { 
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con { 
+    flex: 0 1 1000px;
+    /* border: 10px solid #f00; */
+    box-sizing: border-box;
+    /* padding: 1%; */
+    background-color: #0003;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.container .inner-container .index .sections .section.sec2 .sec-con>ul { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 1%; */
+}
+.container .inner-container .index .sections .section.sec2 .sec-con ul>li { 
+    flex: 0 1 24.25%;
+    box-sizing: border-box;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    background-color: #555;
+    border: 3px solid #555;
+    box-sizing: border-box;
+
+}
+.container .inner-container .index .sections .section.sec2 .sec-con ul>li img { 
+    width: 100%;
+    height: auto;
+    display: block;
+    /* border: 3px solid #00f5;
+    box-sizing: border-box; */
+
+}
+
+.container .inner-container .index .sections .section.sec2 .sec-con ul>li.li1 { 
+    margin-bottom: 1%;
+}
+
+
+.container .inner-container .index .sections .section.sec2 .sec-con ul>li P { 
+    font-size: 0.8rem;
+    line-height: 1.4em;
+    padding: 8px;
+    /* border: 1px solid #f00; */
+    color: #fff;
+    /* background-color: #555; */
+    box-sizing: border-box;
+}
+/* ============== lightBox popUp 시작 ============== */
+.popAni {
+    transition: all 1s ease-in-out;
+}
+
+.popUp { 
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0007;
+    display: none;
+    /* z-index: 777; */
+}
+.popUp .popUp-con { 
+    flex: 0 1 400px;
+    height: auto;
+    border: 10px solid #fff;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px #333;
+    position: relative;
+}
+.popUp .popUp-con img { 
+    width: 100%;
+    height: auto;
+    display: block;
+    align-self: center;
+    /* border: 2px solid #fff; */
+    box-sizing: border-box;
+}
+.popUp .popUp-con p { 
+    margin: 1rem 0.5rem;
+}
+.popUp .popUp-con span.close{
+    position: absolute;
+    background-color: #00f8;
+    color: #fff;
+    font-weight: bold;
+    display: block;
+    padding: 20px;
+    right: 0;
+    top: 0;
+    /* border: 1px solid; */
+}
+
+/*================================ 모바일 ==============================*/
+@media only screen and (max-width:767px) {
+    .container .inner-container .index .sections .section.sec1 .sec-con {
+        height: 400px;
+        line-height: 400px;
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con{
+        box-sizing: border-box;
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con ul>li { 
+        flex: 0 1 49%;
+        flex-wrap: wrap;
+
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con ul>li.li1 { 
+        margin-bottom: 1%;
+    }
+    .container .inner-container .index .sections .section.sec2 .sec-con ul>li.li2 { 
+        margin-bottom: 1%;
+    }
+}

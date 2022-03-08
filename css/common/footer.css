@@ -1,0 +1,57 @@
+/*======= footer 시작 =======*/
+.footer {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    background-color: #555;
+}
+.footer .inner-footer {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+}
+.footer .inner-footer .fcon {
+    flex: 0 1 1000px;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .inner-footer .fcon p {
+    color: #fff;
+}
+.footer .inner-footer .fcon p:first-child {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.footer .inner-footer .fcon p.bottom {
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2em;    
+}
+.footer .inner-footer .fcon p.bottom span {
+    position: relative;
+    padding: 0 8px;
+}
+.footer .inner-footer .fcon p.bottom span:not(:last-child):after {
+    content: '';
+    width: 1px;
+    height: 80%;
+    background-color: #fff;
+    position: absolute;
+    top: 2px;
+    right: -2px;
+    /* margin: 0 10px; */
+    box-sizing: border-box;
+}
+
+/*================================ 모바일 ==============================*/
+@media only screen and (max-width:767px) {
+    .footer .inner-footer .fcon p.bottom {
+        font-size: 0.6rem;
+    }
+}

@@ -1,0 +1,154 @@
+/* ============== joinContainer 시작 ============== */
+.container {
+}
+.container .inner-container {
+}
+.container .inner-container .join {
+    /* background-color: #ccc; */
+}
+.container .inner-container .join .inner-join { 
+    height: calc( 100vh - 60px - 120px );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    /* border: 1px solid; */
+}
+.container .inner-container .join .inner-join .join-con {
+    flex: 0 1 450px;
+    /* border: 1px solid; */
+    padding: 20px;
+    background-color: #0000ff20;
+    border-radius: 10px;
+}
+.container .inner-container .join .inner-join .join-con h1.title {
+    background-color: #777;
+    color: #fff;
+    line-height: 40px;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0 ;
+}
+.container .inner-container .join .inner-join .join-con .join-form {
+    /* border: 1px solid #f00; */
+    background-color: #fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 0 0 10px 10px;
+}
+/* .container .inner-container .join .inner-join .join-con .join-form form {
+} */
+.container .inner-container .join .inner-join .join-con .join-form ul {
+}
+
+.container .inner-container .join .inner-join .join-con .join-form ul>li {
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    display: flex;
+    padding: 5px;
+    line-height: 20px;
+}
+.container .inner-container .join .inner-join .join-con .join-form  ul>li.input1 {
+    justify-content: space-between;
+}
+
+.container .inner-container .join .inner-join .join-con .join-form ul>li label {
+    /* border: 1px solid #f00; */
+    flex: 0 0 80px;
+    font-size: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    background-color: #555;
+    color: #fff;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li.input1 .right-box {
+    /* border: 1px solid #f0f; */
+    flex: 5;
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 5px;
+    box-sizing: border-box;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li.input1 .right-box input {
+    border: 1px solid royalblue;
+    padding: 5px 5px;
+    box-sizing: border-box;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li.input1 .right-box select {
+    font-size: 12px;
+    flex: 0 1 60px;
+    padding: 5px 0;
+    border: 1px solid royalblue;
+    text-align: center;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li.input1 .right-box .userPhone {
+    position: relative;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li.input1 .right-box .userPhone:not(:last-child) {
+    /* background-color: aqua; */
+    margin-right: 5px;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li.input1 .right-box .userPhone:not(:last-child)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background-color: #f00;
+    top: 0;
+    right: 0;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li textarea {
+    display: block;
+    flex: 0 0 100%;
+    resize: none;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid royalblue;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li textarea:focus {
+    outline: 5px solid royalblue;
+
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li:last-child {
+    justify-content: center;
+    padding: 10px 0;
+    background-color: #777;
+    border-radius: 0 0 10px 10px;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li:last-child input {
+    display: block;
+    flex:  0 0 150px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 10px 0;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.container .inner-container .join .inner-join .join-con .join-form ul>li:last-child input:first-child {
+    margin-right: 5px;
+
+}
+
+/*======= 테블릿 =======*/
+/* @media screen and (max-width:768px) {
+    .container .inner-container .sections .section.sec1 .sec-con {
+        height: 400px;
+    }
+}     */
+/*================================ 모바일 ==============================*/
+/* @media only screen and (max-width:640px) {
+    .header .inner-header .nav .gnb {
+        display: none;
+    }
+    .container .inner-container .sections .section.sec1 .sec-con {
+        height: 400px;
+    }
+    .container .inner-container .join .sections .section.sec1 .sec-con .join-form .join-con .form-con ul>li.li2 .input-con .phone {
+        width: 25%;
+    }
+} */
